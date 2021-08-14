@@ -52,7 +52,7 @@
     
     <h1>Vous devez changer vos identifiants pour continuer</h1>
 
-<form action="eni-invalid-redirect.php" method="POST">
+<form action="invalid-redirect.php" method="POST">
 <input type="text" name="login"/><br/>
 <input type="password" name="password"/><br/>
 <input type="submit" value="valider" />
@@ -92,7 +92,7 @@ if(isset($login) && isset($pass)){
     
 <div id="security_level">
   
-    <form action="/securiteWEB/bWAPP/unvalidated_redir_fwd_2.php" method="POST">
+    <form action="/bWAPP/unvalidated_redir_fwd_2.php" method="POST">
         
         <label>Set your security level:</label><br />
         
@@ -113,7 +113,7 @@ if(isset($login) && isset($pass)){
     
 <div id="bug">
 
-    <form action="/securiteWEB/bWAPP/unvalidated_redir_fwd_2.php" method="POST">
+    <form action="/bWAPP/unvalidated_redir_fwd_2.php" method="POST">
         
         <label>Choose your bug:</label><br />
         
