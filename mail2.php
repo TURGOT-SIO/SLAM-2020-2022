@@ -3,16 +3,14 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <title>ENI -top 10 - partie 3</title>
+    <title>B3 - top 10 - partie 3</title>
     <style type="text/css">
     #wrapper{
       margin: 0 200px 0 200px;
     }
     </style>
-      <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
 <body>
-CAPTCHA incorrect 
 <div id="wrapper">
   <h1>Page destiné à envoyé un mail (mail2.php) pour l'exercice CSRF</h1>
      <form action="mail2.php" method="post">
@@ -21,7 +19,6 @@ CAPTCHA incorrect
       <input type="email" name="email" placeholder="votre email ici"></input>
       </fieldset>
       <input type="submit"></input>
-      <div class="g-recaptcha" data-sitekey="6LeNVwsUAAAAAJ7YtwylXtfP_DnoGpF4NiXu1Vj9"></div>
      </form>
    <p>voici le script utilisé pour l'envoi du mail</p>
    <textarea cols="150" rows="25">
@@ -30,7 +27,7 @@ CAPTCHA incorrect
 <html lang="fr">
   <head>
     <meta charset="UTF-8" />
-    <title>ENI -top 10 - partie 3</title>
+    <title>B3 - top 10 - partie 3</title>
     <style type="text/css">
     #wrapper{
       margin: 0 200px 0 200px;
